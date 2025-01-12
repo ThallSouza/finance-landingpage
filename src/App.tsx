@@ -1,6 +1,8 @@
 import { About } from "./components/about"
 import { Banner } from "./components/banner"
+import { Features } from "./components/features"
 import { Header } from "./components/header"
+import { SliderLogo } from "./components/slider-logo"
 
 export function App() {
   return (
@@ -8,6 +10,8 @@ export function App() {
       <Header/>
       <Banner/>
       <About/>
+      <SliderLogo/>
+      <Features/>
     </div>
     
   )
