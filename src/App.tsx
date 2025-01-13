@@ -12,7 +12,7 @@ import { Footer } from "./components/footer"
 export function App() {
   return (
     <div className="bg-[url('@/assets/bg.svg')] bg-cover">
-      <div className="flex flex-col gap-32 pt-8" style={{paddingInline:'10%'}}>
+      <div className="flex flex-col gap-32 pt-8">
         <Header/>
         <Banner/>
         <About/>

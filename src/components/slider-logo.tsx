@@ -7,7 +7,7 @@ import Logo6 from "@/assets/slider-logos/vice.svg"
 
 export function SliderLogo() {
     return (
-        <div className="flex justify-between items-center">
+        <div className="flex justify-between items-center" style={{paddingInline:'10%'}}>
             <img src={Logo1} alt='Logo' className='imagem'/>
             <img src={Logo2} alt='Logo' className='imagem'/>
             <img src={Logo3} alt='Logo' className='imagem'/>

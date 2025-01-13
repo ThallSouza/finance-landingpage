@@ -7,7 +7,7 @@ import Foto3 from "@/assets/foto-3.png"
 
 export function Testimonial() {
     return (
-        <div className="flex gap-8">
+        <div className="flex gap-8" style={{paddingInline:'10%'}}>
             <div className="flex flex-col px-6 py-8 gap-8 backdrop-blur-md bg-secondary/25 rounded-3xl">
                 <img src={Quote} alt='Logo' className='imagem w-14 h-14'/>
                 <p className="text-neutral-50 font-normal text-base">"Great session! Dani was super helpful. She shared some practical advice on how can lorem ip we go about refining our service offerings."</p>

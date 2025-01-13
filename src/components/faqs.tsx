@@ -7,7 +7,7 @@ import {
 
 export function Faqs() {
     return (
-        <div className="flex flex-col gap-16 items-center">
+        <div className="flex flex-col gap-16 items-center" style={{paddingInline:'10%'}}>
             <h2 className="text-neutral-50 text-4xl font-bold text-center">FAQs</h2>
             <Accordion type="single" collapsible className=" w-4/5">
                 <AccordionItem value="item-1">

@@ -4,7 +4,7 @@ import Feature3 from "@/assets/features/f-2.svg"
 
 export function Features() {
     return (
-        <div className="flex flex-col gap-16">
+        <div className="flex flex-col gap-16" style={{paddingInline:'10%'}}>
             <h2 className="text-neutral-50 text-4xl font-bold text-center">What do we offer?</h2>
             <div className="flex justify-between">
                 <div className="flex gap-6">
