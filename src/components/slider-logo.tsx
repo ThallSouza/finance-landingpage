@@ -16,4 +16,4 @@ export function SliderLogo() {
             <img src={Logo6} alt='Logo' className='imagem'/>
         </div>
     )
-  }
+}

@@ -1,4 +1,15 @@
 import { ArrowRight } from "lucide-react"
+import {
+    AlertDialog,
+    AlertDialogAction,
+    AlertDialogCancel,
+    AlertDialogContent,
+    AlertDialogDescription,
+    AlertDialogFooter,
+    AlertDialogHeader,
+    AlertDialogTitle,
+    AlertDialogTrigger,
+} from "@/components/ui/alert-dialog"
 
 import { Button } from "@/components/ui/button"
 import { Avatar, AvatarImage, AvatarFallback } from "./ui/avatar"
@@ -14,7 +25,24 @@ export function Banner() {
                 <h1 className="text-neutral-50 scroll-m-20 text-5xl font-bold  lg:text-5xl">Discover the Perfect Credit Card for You</h1>
                 <p className="text-neutral-400 text-lg leading-6">Discover the power of our secure and rewarding credit cards. Explore our range of credit cards and take control of your finances today.</p>
                 <div>
-                    <Button size="lg" className="font-normal text-neutral-50 bg-primary hover:text-neutral-50/85 hover:bg-primary/85 shadow-none rounded-full">Get Started<ArrowRight/></Button>
+                    <AlertDialog>
+                        <AlertDialogTrigger asChild>
+                            <Button size="lg" className="font-normal text-neutral-50 bg-primary hover:text-neutral-50/85 hover:bg-primary/85 shadow-none rounded-full">Get Started<ArrowRight/></Button>
+                        </AlertDialogTrigger>
+                        <AlertDialogContent>
+                            <h1 className="text-neutral-50 scroll-m-20 text-2xl font-bold">Teste</h1>
+                            <AlertDialogHeader>
+                                <AlertDialogTitle>Are you absolutely sure?</AlertDialogTitle>
+                                <AlertDialogDescription>
+                                    This action cannot be undone. This will permanently delete your account and remove your data from our servers.
+                                </AlertDialogDescription>
+                            </AlertDialogHeader>
+                            <AlertDialogFooter>
+                                <AlertDialogCancel>Cancel</AlertDialogCancel>
+                                <AlertDialogAction>Continue</AlertDialogAction>
+                            </AlertDialogFooter>
+                        </AlertDialogContent>
+                    </AlertDialog>
                 </div>
                 <div className="flex flex-row gap-4 items-center">
                     <div className="flex -space-x-4">
