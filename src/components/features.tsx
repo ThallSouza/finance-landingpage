@@ -11,21 +11,21 @@ export function Features() {
                     <img src={Feature1} alt='Logo' className='imagem w-16 h-16'/>
                     <div className="flex flex-col gap-2 w-64">
                         <h3 className="text-neutral-50 text-2xl font-medium">Security Guarantee</h3>
-                        <p className="text-neutral-500 text-base">Your data and funds will be securely protected.</p>
+                        <p className="text-neutral-400 text-base">Your data and funds will be securely protected.</p>
                     </div>
                 </div>
                 <div className="flex gap-6">
                     <img src={Feature2} alt='Logo' className='imagem w-16 h-16'/>
                     <div className="flex flex-col gap-2 w-64">
                         <h3 className="text-neutral-50 text-2xl font-medium">Investing</h3>
-                        <p className="text-neutral-500 text-base">Your data and funds will be securely protected.</p>
+                        <p className="text-neutral-400 text-base">Your data and funds will be securely protected.</p>
                     </div>
                 </div>
                 <div className="flex gap-6">
                     <img src={Feature3} alt='Logo' className='imagem w-16 h-16'/>
                     <div className="flex flex-col gap-2 w-64">
                         <h3 className="text-neutral-50 text-2xl font-medium">Multiple Method</h3>
-                        <p className="text-neutral-500 text-base">Your data and funds will be securely protected.</p>
+                        <p className="text-neutral-400 text-base">Your data and funds will be securely protected.</p>
                     </div>
                 </div>
             </div>
