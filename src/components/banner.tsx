@@ -31,7 +31,6 @@ export function Banner() {
                         </AlertDialogTrigger>
                         <AlertDialogContent>
                             <h1 className="text-neutral-50 scroll-m-20 text-2xl font-bold">Teste</h1>
-                            <h1 className="text-neutral-50 scroll-m-20 text-2xl font-bold">Teste</h1>
                             <AlertDialogHeader>
                                 <AlertDialogTitle>Are you absolutely sure?</AlertDialogTitle>
                                 <AlertDialogDescription>
