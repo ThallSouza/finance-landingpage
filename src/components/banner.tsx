@@ -1,13 +1,8 @@
 import { ArrowRight } from "lucide-react"
 import {
     AlertDialog,
-    AlertDialogAction,
-    AlertDialogCancel,
     AlertDialogContent,
-    AlertDialogDescription,
     AlertDialogFooter,
-    AlertDialogHeader,
-    AlertDialogTitle,
     AlertDialogTrigger,
 } from "@/components/ui/alert-dialog"
 
@@ -17,6 +12,8 @@ import Imagem from "@/assets/Image Banner.svg"
 import Foto1 from "@/assets/foto-1.png"
 import Foto2 from "@/assets/foto-2.png"
 import Foto3 from "@/assets/foto-3.png"
+import { Input } from "./ui/input"
+import { Label } from "./ui/label"
 
 export function Banner() {
     return (
@@ -31,17 +28,15 @@ export function Banner() {
                         </AlertDialogTrigger>
                         <AlertDialogContent>
                             <h1 className="text-neutral-50 scroll-m-20 text-2xl font-bold">Teste</h1>
-                            <AlertDialogHeader>
-                                <AlertDialogTitle>Are you absolutely sure?</AlertDialogTitle>
-                                <AlertDialogDescription>
-                                    This action cannot be undone. This will permanently delete your account and remove your data from our servers.
-                                </AlertDialogDescription>
-                            </AlertDialogHeader>
-                            <AlertDialogFooter>
-                                <AlertDialogCancel>Cancel</AlertDialogCancel>
-                                <AlertDialogAction>Continue</AlertDialogAction>
-                            </AlertDialogFooter>
+                            <text>Desciption</text>
+                            <Label htmlFor="email">Nome</Label>
+                            <Input type="text" id="text" placeholder="Informe seu nome"/>
+                            <Label htmlFor="email">Email</Label>
+                            <Input type="email" id="email" placeholder="Informe seu melhor e-mail"/>
+                            <Button>Fechar</Button>
+                            <Button>Enviar</Button>
                         </AlertDialogContent>
+                            
                     </AlertDialog>
                 </div>
                 <div className="flex flex-row gap-4 items-center">
