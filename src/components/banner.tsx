@@ -2,7 +2,6 @@ import { ArrowRight } from "lucide-react"
 import {
     AlertDialog,
     AlertDialogContent,
-    AlertDialogFooter,
     AlertDialogTrigger,
 } from "@/components/ui/alert-dialog"
 
